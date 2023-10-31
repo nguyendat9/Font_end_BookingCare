@@ -1,0 +1,16 @@
+.section-doctor {
+    .section-container {
+        .section-body {
+            cursor: pointer;
+        }
+
+        .name-doctor {
+            text-align: center;
+            font-weight: 600;
+
+            &:hover {
+                color: #45c3d2;
+            }
+        }
+    }
+}

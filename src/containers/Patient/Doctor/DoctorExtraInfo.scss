@@ -1,0 +1,180 @@
+.doctor-extra-infor-container {
+    padding-left: 15px;
+
+    .content-up {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+
+        .text-address {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #666;
+            font-weight: 550;
+
+        }
+
+        .name-clinic {
+            padding: 5px 0;
+            font-weight: 600;
+        }
+
+        .detail-address {
+            font-weight: 500;
+            color: #333;
+        }
+    }
+
+    .content-middle {
+
+        .short-infor {
+            color: #666;
+            font-weight: 600;
+
+            .detail {
+                cursor: pointer;
+                color: rgb(38, 160, 231);
+            }
+
+            .currenty {
+                margin: 0 5px;
+            }
+        }
+
+        .detail-infor {
+
+
+            padding: 5px;
+            border: 1px solid #f9f9f9;
+
+
+            .price1 {
+                padding-bottom: 5px;
+                border: 1px solid #ddd;
+                background-color: #f9f9f9;
+
+                .left {
+                    font-weight: 600;
+
+                }
+
+                .right {
+                    float: right;
+                    margin-right: 5px;
+                }
+
+                .note {
+
+                    font-size: 13px;
+                    color: #666;
+                }
+            }
+
+            .price2 {
+
+                border: 1px solid #ddd;
+                background-color: #f9f9f9;
+
+                .left {
+                    font-weight: 600;
+                }
+
+                .right {
+                    float: right;
+                    margin-top: 10px;
+                    margin-right: 5px;
+                }
+
+                .note {
+
+                    font-size: 13px;
+                    color: #666;
+                }
+            }
+
+            .payment {
+
+                border: 1px solid #ddd;
+                background-color: #f9f9f9;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: 15px;
+
+            }
+
+
+        }
+
+        .hide-price {
+            margin-top: 10px;
+
+            span {
+                cursor: pointer;
+                color: rgb(38, 160, 231);
+            }
+
+        }
+
+    }
+
+    .content-down {
+        margin-top: 10px;
+        border-top: 1px solid #ddd;
+
+        .text-insurance {
+            color: #666;
+            font-weight: 600;
+
+            span {
+                cursor: pointer;
+                color: rgb(38, 160, 231);
+            }
+        }
+
+        .text-insurance {
+
+            color: #666;
+            font-size: 14px;
+            padding-bottom: 7px;
+
+        }
+
+        .up {
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            padding-bottom: 5px;
+            padding-left: 4px;
+
+
+            .text-small1 {
+                font-size: 13px;
+                color: #666;
+            }
+        }
+
+        .down {
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            padding-bottom: 5px;
+            padding-left: 4px;
+
+
+
+            .text-small2 {
+                font-size: 13px;
+                color: #666;
+            }
+        }
+
+        .hide-insurance {
+            margin-top: 10px;
+
+            span {
+                cursor: pointer;
+                color: rgb(38, 160, 231);
+            }
+
+        }
+
+
+    }
+}

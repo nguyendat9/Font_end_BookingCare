@@ -1,0 +1,29 @@
+.verify-booking-container {
+    .infor-booking-success {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(38, 160, 231);
+
+    }
+
+
+    .infor-booking-fails {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        color: red;
+
+
+        p {
+            font-size: 14px;
+            margin-top: 10px;
+
+        }
+
+    }
+}

@@ -1,0 +1,20 @@
+.section-specialty {
+    .section-container {
+        .section-body {
+            cursor: pointer;
+
+            .section-specialty {
+                border: 1px solid gray;
+            }
+        }
+
+        .name-specialty {
+            text-align: center;
+            font-weight: 600;
+
+            &:hover {
+                color: #45c3d2;
+            }
+        }
+    }
+}

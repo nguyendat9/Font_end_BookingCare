@@ -1,0 +1,92 @@
+.section-about-content {
+
+    .footer-logo {
+        display: grid;
+        background: url('../../../assets/logo.svg') center center no-repeat;
+        height: 60px;
+        width: 200px;
+        cursor: pointer;
+    }
+
+    .text-name {
+        h2 {
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        p {
+            margin-bottom: 5px;
+
+            i {
+                margin-right: 4px;
+            }
+        }
+
+    }
+
+    .title-address {
+        .img-check {
+            background: url('../../../assets/bo-cong-thuong.svg') no-repeat;
+            background: url('../../../assets/bo-cong-thuong.svg') no-repeat;
+            cursor: pointer;
+            height: 50px;
+            width: auto;
+            padding: 5px;
+            margin-top: 15px;
+        }
+
+        .text-address {
+
+            margin-bottom: 15px;
+            margin-top: 20px;
+        }
+
+        .support {
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+
+        .hotline {
+            margin-bottom: 10px;
+            margin-top: 20px;
+
+        }
+    }
+
+    ul {
+
+        list-style-type: none;
+        padding: 10px 15px;
+        margin: 45px 15px;
+        color: #45c3d2;
+        cursor: pointer;
+
+        li {
+            margin-bottom: 10px;
+            margin-top: 15px;
+        }
+    }
+
+    .title-intro {
+        gap: 10px;
+        margin: 60px 10px;
+
+
+        .title-partner {
+            margin-top: 10px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .partner {
+            color: black;
+
+
+        }
+
+
+    }
+
+}

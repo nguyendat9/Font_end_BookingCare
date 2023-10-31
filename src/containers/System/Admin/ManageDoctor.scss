@@ -1,0 +1,56 @@
+.manage-doctor-container {
+    padding: 5px;
+
+    .manage-doctor-title {
+        text-align: center;
+        margin: 15px 0;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+
+}
+
+.save-content-doctor {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    background-color: orange;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.create-content-doctor {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    background-color: green;
+    color: #ddd;
+    cursor: pointer;
+}
+
+
+.more-infor {
+    // de 2 phan tu cach nhau ra 
+    gap: 15px;
+    display: flex;
+    padding-bottom: 15px;
+
+
+    .content-left {
+        width: 30%;
+    }
+
+    .content-right {
+        width: 70%;
+    }
+
+
+}

@@ -1,0 +1,14 @@
+.clinic-child {
+    .section-medical {
+        border: 1px solid gray !important;
+    }
+
+    .name-clinic {
+        text-align: center;
+        font-weight: 600;
+
+        &:hover {
+            color: #45c3d2;
+        }
+    }
+}

@@ -1,0 +1,213 @@
+.slick-list {
+    background: #fff;
+
+}
+
+.slick-slide {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.slick-prev {
+    left: -10px !important;
+    height: 48px !important;
+    width: 44px !important;
+    z-index: 10;
+    background: #45c3d2 !important;
+    opacity: 0.7;
+
+    &:hover {
+        opacity: 1;
+        background: #eceaea !important;
+    }
+}
+
+.slick-next {
+    right: -10px !important;
+    height: 48px !important;
+    width: 44px !important;
+    z-index: 10;
+    background: #45c3d2 !important;
+    opacity: 0.7;
+
+    &:hover {
+        opacity: 1;
+        background: #eceaea !important;
+    }
+}
+
+.section-share {
+
+    &.section-medical-facilities {
+        background: #f5f5f5;
+    }
+
+    &.section-about {
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        margin: 0 50px;
+        height: 475px !important;
+
+
+        .section-about-header {
+            padding: 15px 10px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .section-about-content {
+            display: flex;
+            gap: 15px;
+            width: 100%;
+
+            .content-left {
+                width: 60%;
+            }
+
+            .content-middle {
+                width: 30%;
+
+            }
+
+            .content-right {
+                width: 30%;
+            }
+        }
+    }
+
+    .section-body {
+
+        .section-customize {
+
+            .bg-image {
+                width: 278px;
+                height: 150px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+
+                &.section-specialty {
+                    // background-image: url('../../../assets/specialty/co-xuong-khop.jpg');
+                }
+
+                &.section-medical {
+                    // background-image: url('../../../assets/medical/lo-go-viet-duc.jpg');
+                    width: 278px;
+                    height: 150px;
+                }
+
+                &.section-doctor {
+                    // background-image: url('../../../assets/doctor/bs-1.jpg');
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+
+                &.section-handbook {
+                    // background-image: url('../../../assets/handbook/153413-tran-dich-khop-goi.png');
+
+                }
+
+            }
+        }
+
+    }
+}
+
+
+
+.section-share {
+
+    height: 300px;
+
+    .section-container {
+
+        margin: 0 50px;
+        display: flex;
+        flex-direction: column;
+
+        .section-header {
+            height: 60px;
+            margin-bottom: 30px;
+            padding-top: 30px;
+
+            .title-section {
+                font-size: 25px;
+                font-weight: 700;
+            }
+
+            .btn-section {
+                float: right;
+                display: block;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                background: #ebebeb;
+                color: black;
+                cursor: pointer;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: #fff;
+                    background: #f7d800;
+                }
+            }
+        }
+    }
+}
+
+.section-medical-facilities {
+
+    height: 350px;
+
+    .section-customize {
+        padding: 5px;
+        cursor: pointer;
+
+
+
+        .bg-image {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .section-medical {
+            border: 1px solid #eceaea;
+            padding: 20px;
+        }
+    }
+
+
+}
+
+.section-doctor {
+    .outer-bg {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .section-customize {
+        padding: 5px;
+        cursor: pointer;
+
+        .customize-boder {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+    }
+}
+
+
+.home-footer {
+    text-align: center;
+    padding-top: 10px;
+
+    a {
+        text-decoration: unset;
+    }
+
+
+}
